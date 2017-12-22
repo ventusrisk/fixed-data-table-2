@@ -2293,6 +2293,7 @@ var FixedDataTableRow = function (_React$Component) {
       var scrollbarOffset = this.props.showScrollbarY ? _Scrollbar2.default.SIZE : 0;
       var fixedRightColumns = _React2.default.createElement(_FixedDataTableCellGroup2.default, {
         key: 'fixed_right_cells',
+        className: 'fixedDataTable_fixed_right_cells',
         isScrolling: this.props.isScrolling,
         height: this.props.height,
         cellGroupWrapperHeight: this.props.cellGroupWrapperHeight,
