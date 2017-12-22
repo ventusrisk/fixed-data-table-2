@@ -168,6 +168,11 @@ body[dir="rtl"] .fixedDataTableColumnResizerLineLayout_main {
 }
 
 .fixedDataTableLayout_header,
+.fixedDataTableLayout_footer {
+  z-index: 2;
+}
+
+.fixedDataTableLayout_header,
 .fixedDataTableLayout_hasBottomBorder {
   border-bottom-style: solid;
   border-bottom-width: 1px;
@@ -199,6 +204,13 @@ body[dir="rtl"] .fixedDataTableColumnResizerLineLayout_main {
 .fixedDataTableLayout_horizontalScrollbar {
   bottom: 0;
   position: absolute;
+}
+
+.fixedDataTable_fixed_cells {
+  z-index: 1;
+}
+.fixedDataTable_scrollable_cells {
+  z-index: 0;
 }
 /**
  * Copyright Schrodinger, LLC
